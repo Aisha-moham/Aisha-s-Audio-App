@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA793E5024ED7B6B0005A038 /* BTS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA793E4F24ED7B6B0005A038 /* BTS.mp3 */; };
+		EAFA252724EC7555001B75AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA252624EC7555001B75AE /* AppDelegate.swift */; };
+		EAFA252924EC7555001B75AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA252824EC7555001B75AE /* SceneDelegate.swift */; };
+		EAFA252B24EC7555001B75AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA252A24EC7555001B75AE /* ViewController.swift */; };
+		EAFA252E24EC7555001B75AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFA252C24EC7555001B75AE /* Main.storyboard */; };
+		EAFA253124EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAFA252F24EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodeld */; };
+		EAFA253324EC7556001B75AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFA253224EC7556001B75AE /* Assets.xcassets */; };
+		EAFA253624EC7556001B75AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFA253424EC7556001B75AE /* LaunchScreen.storyboard */; };
+		EAFA254124EC7556001B75AE /* Aisha_s_Audio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA254024EC7556001B75AE /* Aisha_s_Audio_AppTests.swift */; };
+		EAFA254C24EC7556001B75AE /* Aisha_s_Audio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA254B24EC7556001B75AE /* Aisha_s_Audio_AppUITests.swift */; };
+		EAFA255A24EC7584001B75AE /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFA255924EC7584001B75AE /* cat2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFA253D24EC7556001B75AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFA251B24EC7555001B75AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFA252224EC7555001B75AE;
+			remoteInfo = "Aisha's Audio App";
+		};
+		EAFA254824EC7556001B75AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFA251B24EC7555001B75AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFA252224EC7555001B75AE;
+			remoteInfo = "Aisha's Audio App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA793E4F24ED7B6B0005A038 /* BTS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BTS.mp3; sourceTree = "<group>"; };
+		EAFA252324EC7555001B75AE /* Aisha's Audio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aisha's Audio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFA252624EC7555001B75AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAFA252824EC7555001B75AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAFA252A24EC7555001B75AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAFA252D24EC7555001B75AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAFA253024EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aisha_s_Audio_App.xcdatamodel; sourceTree = "<group>"; };
+		EAFA253224EC7556001B75AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAFA253524EC7556001B75AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAFA253724EC7556001B75AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFA253C24EC7556001B75AE /* Aisha's Audio AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aisha's Audio AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFA254024EC7556001B75AE /* Aisha_s_Audio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aisha_s_Audio_AppTests.swift; sourceTree = "<group>"; };
+		EAFA254224EC7556001B75AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFA254724EC7556001B75AE /* Aisha's Audio AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aisha's Audio AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFA254B24EC7556001B75AE /* Aisha_s_Audio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aisha_s_Audio_AppUITests.swift; sourceTree = "<group>"; };
+		EAFA254D24EC7556001B75AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFA255924EC7584001B75AE /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFA252024EC7555001B75AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA253924EC7556001B75AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA254424EC7556001B75AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFA251A24EC7555001B75AE = {
+			isa = PBXGroup;
+			children = (
+				EAFA252524EC7555001B75AE /* Aisha's Audio App */,
+				EAFA253F24EC7556001B75AE /* Aisha's Audio AppTests */,
+				EAFA254A24EC7556001B75AE /* Aisha's Audio AppUITests */,
+				EAFA252424EC7555001B75AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFA252424EC7555001B75AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA252324EC7555001B75AE /* Aisha's Audio App.app */,
+				EAFA253C24EC7556001B75AE /* Aisha's Audio AppTests.xctest */,
+				EAFA254724EC7556001B75AE /* Aisha's Audio AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFA252524EC7555001B75AE /* Aisha's Audio App */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA252624EC7555001B75AE /* AppDelegate.swift */,
+				EAFA252824EC7555001B75AE /* SceneDelegate.swift */,
+				EAFA252A24EC7555001B75AE /* ViewController.swift */,
+				EAFA252C24EC7555001B75AE /* Main.storyboard */,
+				EA793E4F24ED7B6B0005A038 /* BTS.mp3 */,
+				EAFA255924EC7584001B75AE /* cat2.png */,
+				EAFA253224EC7556001B75AE /* Assets.xcassets */,
+				EAFA253424EC7556001B75AE /* LaunchScreen.storyboard */,
+				EAFA253724EC7556001B75AE /* Info.plist */,
+				EAFA252F24EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodeld */,
+			);
+			path = "Aisha's Audio App";
+			sourceTree = "<group>";
+		};
+		EAFA253F24EC7556001B75AE /* Aisha's Audio AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA254024EC7556001B75AE /* Aisha_s_Audio_AppTests.swift */,
+				EAFA254224EC7556001B75AE /* Info.plist */,
+			);
+			path = "Aisha's Audio AppTests";
+			sourceTree = "<group>";
+		};
+		EAFA254A24EC7556001B75AE /* Aisha's Audio AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA254B24EC7556001B75AE /* Aisha_s_Audio_AppUITests.swift */,
+				EAFA254D24EC7556001B75AE /* Info.plist */,
+			);
+			path = "Aisha's Audio AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFA252224EC7555001B75AE /* Aisha's Audio App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFA255024EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio App" */;
+			buildPhases = (
+				EAFA251F24EC7555001B75AE /* Sources */,
+				EAFA252024EC7555001B75AE /* Frameworks */,
+				EAFA252124EC7555001B75AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aisha's Audio App";
+			productName = "Aisha's Audio App";
+			productReference = EAFA252324EC7555001B75AE /* Aisha's Audio App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFA253B24EC7556001B75AE /* Aisha's Audio AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFA255324EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio AppTests" */;
+			buildPhases = (
+				EAFA253824EC7556001B75AE /* Sources */,
+				EAFA253924EC7556001B75AE /* Frameworks */,
+				EAFA253A24EC7556001B75AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFA253E24EC7556001B75AE /* PBXTargetDependency */,
+			);
+			name = "Aisha's Audio AppTests";
+			productName = "Aisha's Audio AppTests";
+			productReference = EAFA253C24EC7556001B75AE /* Aisha's Audio AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAFA254624EC7556001B75AE /* Aisha's Audio AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFA255624EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio AppUITests" */;
+			buildPhases = (
+				EAFA254324EC7556001B75AE /* Sources */,
+				EAFA254424EC7556001B75AE /* Frameworks */,
+				EAFA254524EC7556001B75AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFA254924EC7556001B75AE /* PBXTargetDependency */,
+			);
+			name = "Aisha's Audio AppUITests";
+			productName = "Aisha's Audio AppUITests";
+			productReference = EAFA254724EC7556001B75AE /* Aisha's Audio AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFA251B24EC7555001B75AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Aisha Mohammed";
+				TargetAttributes = {
+					EAFA252224EC7555001B75AE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EAFA253B24EC7556001B75AE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EAFA252224EC7555001B75AE;
+					};
+					EAFA254624EC7556001B75AE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EAFA252224EC7555001B75AE;
+					};
+				};
+			};
+			buildConfigurationList = EAFA251E24EC7555001B75AE /* Build configuration list for PBXProject "Aisha's Audio App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAFA251A24EC7555001B75AE;
+			productRefGroup = EAFA252424EC7555001B75AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFA252224EC7555001B75AE /* Aisha's Audio App */,
+				EAFA253B24EC7556001B75AE /* Aisha's Audio AppTests */,
+				EAFA254624EC7556001B75AE /* Aisha's Audio AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFA252124EC7555001B75AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA253624EC7556001B75AE /* LaunchScreen.storyboard in Resources */,
+				EA793E5024ED7B6B0005A038 /* BTS.mp3 in Resources */,
+				EAFA255A24EC7584001B75AE /* cat2.png in Resources */,
+				EAFA253324EC7556001B75AE /* Assets.xcassets in Resources */,
+				EAFA252E24EC7555001B75AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA253A24EC7556001B75AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA254524EC7556001B75AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFA251F24EC7555001B75AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA252B24EC7555001B75AE /* ViewController.swift in Sources */,
+				EAFA252724EC7555001B75AE /* AppDelegate.swift in Sources */,
+				EAFA252924EC7555001B75AE /* SceneDelegate.swift in Sources */,
+				EAFA253124EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA253824EC7556001B75AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA254124EC7556001B75AE /* Aisha_s_Audio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA254324EC7556001B75AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA254C24EC7556001B75AE /* Aisha_s_Audio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFA253E24EC7556001B75AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFA252224EC7555001B75AE /* Aisha's Audio App */;
+			targetProxy = EAFA253D24EC7556001B75AE /* PBXContainerItemProxy */;
+		};
+		EAFA254924EC7556001B75AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFA252224EC7555001B75AE /* Aisha's Audio App */;
+			targetProxy = EAFA254824EC7556001B75AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFA252C24EC7555001B75AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFA252D24EC7555001B75AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFA253424EC7556001B75AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFA253524EC7556001B75AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFA254E24EC7556001B75AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAFA254F24EC7556001B75AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFA255124EC7556001B75AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFA255224EC7556001B75AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAFA255424EC7556001B75AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha's Audio App.app/Aisha's Audio App";
+			};
+			name = Debug;
+		};
+		EAFA255524EC7556001B75AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha's Audio App.app/Aisha's Audio App";
+			};
+			name = Release;
+		};
+		EAFA255724EC7556001B75AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aisha's Audio App";
+			};
+			name = Debug;
+		};
+		EAFA255824EC7556001B75AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's Audio AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-Audio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aisha's Audio App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFA251E24EC7555001B75AE /* Build configuration list for PBXProject "Aisha's Audio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA254E24EC7556001B75AE /* Debug */,
+				EAFA254F24EC7556001B75AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFA255024EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA255124EC7556001B75AE /* Debug */,
+				EAFA255224EC7556001B75AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFA255324EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA255424EC7556001B75AE /* Debug */,
+				EAFA255524EC7556001B75AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFA255624EC7556001B75AE /* Build configuration list for PBXNativeTarget "Aisha's Audio AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA255724EC7556001B75AE /* Debug */,
+				EAFA255824EC7556001B75AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAFA252F24EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAFA253024EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodel */,
+			);
+			currentVersion = EAFA253024EC7555001B75AE /* Aisha_s_Audio_App.xcdatamodel */;
+			path = Aisha_s_Audio_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAFA251B24EC7555001B75AE /* Project object */;
+}
